@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Checkout</name>
+   <tag></tag>
+   <elementGuidId>ee9b7a4d-6359-426d-88cd-f83eb408c8af</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Checkout</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mm-0&quot;)/div[@class=&quot;wrapper  en_GB&quot;]/div[@class=&quot;page&quot;]/div[@class=&quot;main-container col1-layout&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;col-main&quot;]/div[@class=&quot;cart display-single-price&quot;]/div[@class=&quot;page-body&quot;]/div[@class=&quot;page-title title-buttons&quot;]/div[@class=&quot;checkout-actions&quot;]/ul[@class=&quot;checkout-types top&quot;]/li[1]/button[@class=&quot;btn-primary btn-proceed-checkout btn-checkout&quot;]/span[1]/span[1]</value>
+   </webElementProperties>
+</WebElementEntity>

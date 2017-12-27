@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>login</name>
+   <tag>ul1</tag>
+   <comment></comment>
+   <testCaseGuid>08cc14d1-ab09-4205-b52e-0ee4607967cd</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('testDataFile').getValue('email', 1)</defaultValue>
+      <description></description>
+      <id>5e05e8b5-4bec-4221-8e43-434541eea895</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testDataFile').getValue('password', 1)</defaultValue>
+      <description></description>
+      <id>b07cccf6-d385-4b0a-b03d-6cd71f6e3017</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

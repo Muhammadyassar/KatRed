@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Assert Successful Login</description>
+   <name>SEP_FA_CustomerLogin</name>
+   <tag>SEP_FA0001</tag>
+   <comment></comment>
+   <testCaseGuid>12635f42-ccda-48d9-a7b3-c27b92fbf6fe</testCaseGuid>
+   <variable>
+      <defaultValue>'rbdtest@mailinator.com'</defaultValue>
+      <description></description>
+      <id>3f5310a8-9abd-40f7-af67-8719e110507a</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'Password123'</defaultValue>
+      <description></description>
+      <id>f822aaa4-6716-4ea3-8898-66f589295122</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Hello Jack'</defaultValue>
+      <description></description>
+      <id>c9021c03-3239-4e34-b4f0-50c0121788f6</id>
+      <masked>false</masked>
+      <name>expectation</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>95b773c4-1df4-4029-9ced-375e6232d12b</id>
+      <masked>false</masked>
+      <name>scene</name>
+   </variable>
+</TestCaseEntity>

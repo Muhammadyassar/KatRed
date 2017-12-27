@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description>Sephora Automation TestSuites</description>
+   <name>Sephora</name>
+   <tag></tag>
+   <UUID>1b52a6eb-797c-48ba-a54f-a76a8d0e0422</UUID>
+   <pageLoadTimeout>0</pageLoadTimeout>
+</Project>

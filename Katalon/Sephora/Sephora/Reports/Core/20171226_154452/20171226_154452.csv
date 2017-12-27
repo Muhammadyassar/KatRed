@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Core,Chrome 63.0.3239.108,,2017-12-26 15:44:54,2017-12-26 15:47:37,2m - 43.326s,ERROR
+,,,,,,
+Test Cases/AllCases/My Account/SEP_FA_CustomerLogin - Iteration 1,Chrome 63.0.3239.108,Assert Successful Login,2017-12-26 15:44:54,2017-12-26 15:45:40,46.032s,PASSED
+Statement - println(expectation),Chrome 63.0.3239.108,,2017-12-26 15:44:55,2017-12-26 15:44:55,0.008s,PASSED
+callTestCase,Chrome 63.0.3239.108,,2017-12-26 15:44:55,2017-12-26 15:45:21,26.015s,PASSED
+callTestCase,Chrome 63.0.3239.108,,2017-12-26 15:45:21,2017-12-26 15:45:37,16.577s,PASSED
+Statement - switch (scene),Chrome 63.0.3239.108,,2017-12-26 15:45:37,2017-12-26 15:45:39,1.970s,PASSED
+closeBrowser,Chrome 63.0.3239.108,,2017-12-26 15:45:39,2017-12-26 15:45:40,0.814s,PASSED
+,,,,,,
+Test Cases/AllCases/My Account/SEP_FA_CustomerLogin - Iteration 2,Chrome 63.0.3239.108,Assert Successful Login,2017-12-26 15:45:40,2017-12-26 15:46:22,41.811s,ERROR
+Statement - println(expectation),Chrome 63.0.3239.108,,2017-12-26 15:45:40,2017-12-26 15:45:40,0.000s,PASSED
+callTestCase,Chrome 63.0.3239.108,,2017-12-26 15:45:40,2017-12-26 15:46:06,25.924s,PASSED
+callTestCase,Chrome 63.0.3239.108,,2017-12-26 15:46:06,2017-12-26 15:46:22,15.605s,PASSED
+Statement - switch (scene),Chrome 63.0.3239.108,,2017-12-26 15:46:22,2017-12-26 15:46:22,0.126s,PASSED
+,,,,,,
+Test Cases/AllCases/My Account/SEP_FA_CustomerLogin - Iteration 3,Chrome 63.0.3239.108,Assert Successful Login,2017-12-26 15:46:22,2017-12-26 15:47:01,39.421s,ERROR
+Statement - println(expectation),Chrome 63.0.3239.108,,2017-12-26 15:46:22,2017-12-26 15:46:22,0.001s,PASSED
+callTestCase,Chrome 63.0.3239.108,,2017-12-26 15:46:22,2017-12-26 15:46:49,27.398s,PASSED
+callTestCase,Chrome 63.0.3239.108,,2017-12-26 15:46:49,2017-12-26 15:47:01,11.974s,PASSED
+Statement - switch (scene),Chrome 63.0.3239.108,,2017-12-26 15:47:01,2017-12-26 15:47:01,0.022s,PASSED
+,,,,,,
+Test Cases/AllCases/My Account/SEP_FA_CustomerLogin - Iteration 4,Chrome 63.0.3239.108,Assert Successful Login,2017-12-26 15:47:01,2017-12-26 15:47:36,34.679s,ERROR
+Statement - println(expectation),Chrome 63.0.3239.108,,2017-12-26 15:47:01,2017-12-26 15:47:01,0.001s,PASSED
+callTestCase,Chrome 63.0.3239.108,,2017-12-26 15:47:01,2017-12-26 15:47:29,27.916s,PASSED
+callTestCase,Chrome 63.0.3239.108,,2017-12-26 15:47:29,2017-12-26 15:47:36,6.741s,PASSED
+Statement - switch (scene),Chrome 63.0.3239.108,,2017-12-26 15:47:36,2017-12-26 15:47:36,0.003s,PASSED

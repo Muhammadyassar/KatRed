@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Core,,,2017-12-26 15:08:44,2017-12-26 15:08:45,1.322s,ERROR
+,,,,,,
+Test Cases/AllCases/My Account/SEP_FA_CustomerLogin - Iteration 1,,Assert Successful Login,2017-12-26 15:08:44,2017-12-26 15:08:45,0.558s,ERROR
+Statement - println(expectation),,,2017-12-26 15:08:44,2017-12-26 15:08:44,0.005s,PASSED
+,,,,,,
+Test Cases/AllCases/My Account/SEP_FA_CustomerLogin - Iteration 2,,Assert Successful Login,2017-12-26 15:08:45,2017-12-26 15:08:45,0.021s,ERROR
+Statement - println(expectation),,,2017-12-26 15:08:45,2017-12-26 15:08:45,0.002s,PASSED
+,,,,,,
+Test Cases/AllCases/My Account/SEP_FA_CustomerLogin - Iteration 3,,Assert Successful Login,2017-12-26 15:08:45,2017-12-26 15:08:45,0.019s,ERROR
+Statement - println(expectation),,,2017-12-26 15:08:45,2017-12-26 15:08:45,0.001s,PASSED
+,,,,,,
+Test Cases/AllCases/My Account/SEP_FA_CustomerLogin - Iteration 4,,Assert Successful Login,2017-12-26 15:08:45,2017-12-26 15:08:45,0.157s,ERROR
+Statement - println(expectation),,,2017-12-26 15:08:45,2017-12-26 15:08:45,0.001s,PASSED

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_RegressionTest" time="82" tests="0" failures="1" errors="0">
+   <testsuite name="TS_RegressionTest" tests="0" failures="1" errors="0" time="82" timestamp="2017-12-21 16:11:00" hostname="Yassar - Yassar-PC" id="Test Suites/TS_RegressionTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon\\Project_1\\Project\\Reports\\TS_RegressionTest\\20171221_161058"/>
+         <property name="logFiles" value="D:\\Katalon\\Project_1\\Project\\Reports\\TS_RegressionTest\\20171221_161058\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Yassar - Yassar-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Firefox 47.0"/>
+         <property name="hostAddress" value="192.168.1.197"/>
+         <property name="sessionId" value="7e2b942b-e03c-4e1b-a993-4c4ae1cac96f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Common Test Cases/LoginSephora" classname="Test Cases/Common Test Cases/LoginSephora" status="FAILED">
+         <failure type="FAILED" message="Unable to check object 'Object Repository/Page_CliniqueFIT Workout Face  Body/span_Hello Jack' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:48569 [localhost/127.0.0.1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'YASSAR-PC', ip: '192.168.1.197', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver)"/>
+         <system-out><![CDATA[2017-12-21 16:11:00 - [TEST_CASE][FAILED] - Test Cases/Common Test Cases/LoginSephora: Test Cases/Common Test Cases/LoginSephora FAILED because (of) Unable to check object 'Object Repository/Page_CliniqueFIT Workout Face  Body/span_Hello Jack' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:48569 [localhost/127.0.0.1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'YASSAR-PC', ip: '192.168.1.197', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver)
+
+2017-12-21 16:11:00 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-21 16:11:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-21 16:11:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.sephora.ae/en/' successfully
+
+2017-12-21 16:11:27 - [MESSAGE][PASSED] - Navigate to 'https://www.sephora.ae/en/' successfully
+
+2017-12-21 16:11:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sephora UAE  Shop Beauty Produ (1)/a_fancybox-item fancybox-close' is clicked on
+
+2017-12-21 16:11:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sephora UAE  Shop Beauty Produ (1)/a_fancybox-item fancybox-close' is clicked on
+
+2017-12-21 16:11:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sephora UAE  Shop Beauty Produ (1)/span_My Account' is clicked on
+
+2017-12-21 16:11:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sephora UAE  Shop Beauty Produ (1)/span_My Account' is clicked on
+
+2017-12-21 16:11:44 - [TEST_STEP][PASSED] - setText: Text 'rbdtest@mailinator.com' is set on object 'Object Repository/Page_Customer Login/input_loginusername'
+
+2017-12-21 16:11:48 - [MESSAGE][PASSED] - Text 'rbdtest@mailinator.com' is set on object 'Object Repository/Page_Customer Login/input_loginusername'
+
+2017-12-21 16:11:48 - [TEST_STEP][PASSED] - setText: Text 'Password123' is set on object 'Object Repository/Page_Customer Login/input_loginpassword'
+
+2017-12-21 16:11:48 - [MESSAGE][PASSED] - Text 'Password123' is set on object 'Object Repository/Page_Customer Login/input_loginpassword'
+
+2017-12-21 16:11:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Customer Login/span_Log in' is clicked on
+
+2017-12-21 16:11:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Login/span_Log in' is clicked on
+
+2017-12-21 16:11:50 - [TEST_STEP][FAILED] - check: Unable to check object 'Object Repository/Page_CliniqueFIT Workout Face  Body/span_Hello Jack' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:48569 [localhost/127.0.0.1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'YASSAR-PC', ip: '192.168.1.197', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver)
+
+2017-12-21 16:12:22 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-21 16:12:22 - [MESSAGE][FAILED] - Unable to check object 'Object Repository/Page_CliniqueFIT Workout Face  Body/span_Hello Jack' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:48569 [localhost/127.0.0.1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'YASSAR-PC', ip: '192.168.1.197', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver)]]></system-out>
+         <system-err><![CDATA[2017-12-21 16:11:00 - [TEST_CASE][FAILED] - Test Cases/Common Test Cases/LoginSephora: Test Cases/Common Test Cases/LoginSephora FAILED because (of) Unable to check object 'Object Repository/Page_CliniqueFIT Workout Face  Body/span_Hello Jack' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:48569 [localhost/127.0.0.1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'YASSAR-PC', ip: '192.168.1.197', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-21 16:11:00 - [TEST_SUITE][INCOMPLETE] - TS_RegressionTest: null]]></system-out>
+      <system-err><![CDATA[2017-12-21 16:11:00 - [TEST_SUITE][INCOMPLETE] - TS_RegressionTest: null]]></system-err>
+   </testsuite>
+</testsuites>

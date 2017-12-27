@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_RegressionTest,Firefox 47.0,,2017-12-21 16:11:00,2017-12-21 16:12:23,1m - 22.999s,INCOMPLETE
+,,,,,,
+Test Cases/Common Test Cases/LoginSephora,Firefox 47.0,,2017-12-21 16:11:00,2017-12-21 16:12:23,1m - 22.587s,FAILED
+openBrowser,Firefox 47.0,,2017-12-21 16:11:00,2017-12-21 16:11:17,16.775s,PASSED
+navigateToUrl,Firefox 47.0,,2017-12-21 16:11:17,2017-12-21 16:11:27,9.574s,PASSED
+click,Firefox 47.0,,2017-12-21 16:11:27,2017-12-21 16:11:41,14.101s,PASSED
+click,Firefox 47.0,,2017-12-21 16:11:41,2017-12-21 16:11:44,2.951s,PASSED
+setText,Firefox 47.0,,2017-12-21 16:11:44,2017-12-21 16:11:48,4.044s,PASSED
+setText,Firefox 47.0,,2017-12-21 16:11:48,2017-12-21 16:11:48,0.353s,PASSED
+click,Firefox 47.0,,2017-12-21 16:11:48,2017-12-21 16:11:50,1.234s,PASSED
+check,Firefox 47.0,,2017-12-21 16:11:50,2017-12-21 16:12:22,32.970s,FAILED

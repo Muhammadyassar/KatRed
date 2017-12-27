@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Core" time="97" tests="3" failures="0" errors="0">
+   <testsuite name="Core" tests="3" failures="0" errors="0" time="97" timestamp="2017-12-26 14:30:48" hostname="Yassar - Yassar-PC" id="Test Suites/Core">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon\\Sephora\\Sephora\\Reports\\Core\\20171226_143046"/>
+         <property name="logFiles" value="D:\\Katalon\\Sephora\\Sephora\\Reports\\Core\\20171226_143046\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Yassar - Yassar-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.108"/>
+         <property name="hostAddress" value="192.168.1.197"/>
+         <property name="sessionId" value="87ad3e6fea38b29774bdcee6bce4ee96"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/AllCases/My Account/SEP_FA_CustomerLogin - Copy - Iteration 1" classname="Test Cases/AllCases/My Account/SEP_FA_CustomerLogin - Copy" status="PASSED">
+         <system-out><![CDATA[2017-12-26 14:30:48 - [TEST_CASE][PASSED] - Test Cases/AllCases/My Account/SEP_FA_CustomerLogin - Copy - Iteration 1: Test Cases/AllCases/My Account/SEP_FA_CustomerLogin - Copy
+
+2017-12-26 14:30:48 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/UnitCases/openSite - Copy' successfully
+
+2017-12-26 14:30:49 - [TEST_CASE][PASSED] - Test Cases/UnitCases/openSite - Copy: Test Cases/UnitCases/openSite - Copy
+
+2017-12-26 14:30:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-26 14:30:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-26 14:30:51 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-26 14:30:51 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-26 14:30:51 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.sephora.ae/en/' successfully
+
+2017-12-26 14:31:00 - [MESSAGE][PASSED] - Navigate to 'https://www.sephora.ae/en/' successfully
+
+2017-12-26 14:31:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UnitCases/openSite - Copy' successfully
+
+2017-12-26 14:31:00 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/UnitCases/testingLoginBinary' successfully
+
+2017-12-26 14:31:00 - [TEST_CASE][PASSED] - Test Cases/UnitCases/testingLoginBinary: Test Cases/UnitCases/testingLoginBinary
+
+2017-12-26 14:31:01 - [TEST_STEP][PASSED] - Statement - println(email): null
+
+2017-12-26 14:31:01 - [TEST_STEP][PASSED] - Statement - println(password): null
+
+2017-12-26 14:31:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/HomePage/My Account TopLink' is clicked on
+
+2017-12-26 14:31:05 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/My Account TopLink' is clicked on
+
+2017-12-26 14:31:05 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-12-26 14:31:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-26 14:31:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-12-26 14:31:05 - [TEST_STEP][PASSED] - setText: Text 'autorbd20171222_171531@mailinator.com' is set on object 'Object Repository/LoginPage/Login Input Field'
+
+2017-12-26 14:31:05 - [MESSAGE][PASSED] - Text 'autorbd20171222_171531@mailinator.com' is set on object 'Object Repository/LoginPage/Login Input Field'
+
+2017-12-26 14:31:05 - [TEST_STEP][PASSED] - setText: Text 'Password123' is set on object 'Object Repository/LoginPage/Password Input Field'
+
+2017-12-26 14:31:06 - [MESSAGE][PASSED] - Text 'Password123' is set on object 'Object Repository/LoginPage/Password Input Field'
+
+2017-12-26 14:31:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginPage/Login Button' is clicked on
+
+2017-12-26 14:31:16 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/Login Button' is clicked on
+
+2017-12-26 14:31:16 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-12-26 14:31:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-26 14:31:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-12-26 14:31:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UnitCases/testingLoginBinary' successfully
+
+2017-12-26 14:31:16 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/HomePage/Welcome Message' is present
+
+2017-12-26 14:31:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-26 14:31:17 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Welcome Message' is present
+
+2017-12-26 14:31:17 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-12-26 14:31:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AllCases/My Account/SEP_FA_CustomerLogin - Copy - Iteration 2" classname="Test Cases/AllCases/My Account/SEP_FA_CustomerLogin - Copy" status="PASSED">
+         <system-out><![CDATA[2017-12-26 14:31:18 - [TEST_CASE][PASSED] - Test Cases/AllCases/My Account/SEP_FA_CustomerLogin - Copy - Iteration 2: Test Cases/AllCases/My Account/SEP_FA_CustomerLogin - Copy
+
+2017-12-26 14:31:18 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/UnitCases/openSite - Copy' successfully
+
+2017-12-26 14:31:18 - [TEST_CASE][PASSED] - Test Cases/UnitCases/openSite - Copy: Test Cases/UnitCases/openSite - Copy
+
+2017-12-26 14:31:18 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-26 14:31:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-26 14:31:19 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-26 14:31:19 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-26 14:31:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.sephora.ae/en/' successfully
+
+2017-12-26 14:31:34 - [MESSAGE][PASSED] - Navigate to 'https://www.sephora.ae/en/' successfully
+
+2017-12-26 14:31:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UnitCases/openSite - Copy' successfully
+
+2017-12-26 14:31:34 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/UnitCases/testingLoginBinary' successfully
+
+2017-12-26 14:31:34 - [TEST_CASE][PASSED] - Test Cases/UnitCases/testingLoginBinary: Test Cases/UnitCases/testingLoginBinary
+
+2017-12-26 14:31:34 - [TEST_STEP][PASSED] - Statement - println(email): null
+
+2017-12-26 14:31:34 - [TEST_STEP][PASSED] - Statement - println(password): null
+
+2017-12-26 14:31:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/HomePage/My Account TopLink' is clicked on
+
+2017-12-26 14:31:40 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/My Account TopLink' is clicked on
+
+2017-12-26 14:31:40 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-12-26 14:31:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-26 14:31:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-12-26 14:31:40 - [TEST_STEP][PASSED] - setText: Text 'rbdtest@mailinator.com' is set on object 'Object Repository/LoginPage/Login Input Field'
+
+2017-12-26 14:31:40 - [MESSAGE][PASSED] - Text 'rbdtest@mailinator.com' is set on object 'Object Repository/LoginPage/Login Input Field'
+
+2017-12-26 14:31:40 - [TEST_STEP][PASSED] - setText: Text 'Password123' is set on object 'Object Repository/LoginPage/Password Input Field'
+
+2017-12-26 14:31:41 - [MESSAGE][PASSED] - Text 'Password123' is set on object 'Object Repository/LoginPage/Password Input Field'
+
+2017-12-26 14:31:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginPage/Login Button' is clicked on
+
+2017-12-26 14:31:51 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/Login Button' is clicked on
+
+2017-12-26 14:31:51 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-12-26 14:31:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-26 14:31:51 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-12-26 14:31:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UnitCases/testingLoginBinary' successfully
+
+2017-12-26 14:31:51 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/HomePage/Welcome Message' is present
+
+2017-12-26 14:31:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-26 14:31:52 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Welcome Message' is present
+
+2017-12-26 14:31:52 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-12-26 14:31:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AllCases/My Account/SEP_FA_CustomerLogin - Copy - Iteration 3" classname="Test Cases/AllCases/My Account/SEP_FA_CustomerLogin - Copy" status="PASSED">
+         <system-out><![CDATA[2017-12-26 14:31:53 - [TEST_CASE][PASSED] - Test Cases/AllCases/My Account/SEP_FA_CustomerLogin - Copy - Iteration 3: Test Cases/AllCases/My Account/SEP_FA_CustomerLogin - Copy
+
+2017-12-26 14:31:53 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/UnitCases/openSite - Copy' successfully
+
+2017-12-26 14:31:53 - [TEST_CASE][PASSED] - Test Cases/UnitCases/openSite - Copy: Test Cases/UnitCases/openSite - Copy
+
+2017-12-26 14:31:53 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-26 14:31:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-26 14:31:55 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-26 14:31:55 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-26 14:31:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.sephora.ae/en/' successfully
+
+2017-12-26 14:32:06 - [MESSAGE][PASSED] - Navigate to 'https://www.sephora.ae/en/' successfully
+
+2017-12-26 14:32:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UnitCases/openSite - Copy' successfully
+
+2017-12-26 14:32:06 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/UnitCases/testingLoginBinary' successfully
+
+2017-12-26 14:32:06 - [TEST_CASE][PASSED] - Test Cases/UnitCases/testingLoginBinary: Test Cases/UnitCases/testingLoginBinary
+
+2017-12-26 14:32:06 - [TEST_STEP][PASSED] - Statement - println(email): null
+
+2017-12-26 14:32:06 - [TEST_STEP][PASSED] - Statement - println(password): null
+
+2017-12-26 14:32:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/HomePage/My Account TopLink' is clicked on
+
+2017-12-26 14:32:11 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/My Account TopLink' is clicked on
+
+2017-12-26 14:32:11 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-12-26 14:32:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-26 14:32:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-12-26 14:32:11 - [TEST_STEP][PASSED] - setText: Text 'autorbd20171222_170951@mailinator.com' is set on object 'Object Repository/LoginPage/Login Input Field'
+
+2017-12-26 14:32:11 - [MESSAGE][PASSED] - Text 'autorbd20171222_170951@mailinator.com' is set on object 'Object Repository/LoginPage/Login Input Field'
+
+2017-12-26 14:32:11 - [TEST_STEP][PASSED] - setText: Text 'Password123' is set on object 'Object Repository/LoginPage/Password Input Field'
+
+2017-12-26 14:32:12 - [MESSAGE][PASSED] - Text 'Password123' is set on object 'Object Repository/LoginPage/Password Input Field'
+
+2017-12-26 14:32:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginPage/Login Button' is clicked on
+
+2017-12-26 14:32:23 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/Login Button' is clicked on
+
+2017-12-26 14:32:23 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-12-26 14:32:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-26 14:32:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-12-26 14:32:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UnitCases/testingLoginBinary' successfully
+
+2017-12-26 14:32:23 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/HomePage/Welcome Message' is present
+
+2017-12-26 14:32:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-26 14:32:24 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Welcome Message' is present
+
+2017-12-26 14:32:24 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-12-26 14:32:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-26 14:30:48 - [TEST_SUITE][PASSED] - Core: Test Cases/AllCases/My Account/SEP_FA_CustomerLogin - Copy]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

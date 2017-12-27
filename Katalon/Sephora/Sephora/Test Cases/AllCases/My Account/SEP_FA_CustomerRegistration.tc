@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Assert Successful Registration</description>
+   <name>SEP_FA_CustomerRegistration</name>
+   <tag>SEP_FA0001</tag>
+   <comment></comment>
+   <testCaseGuid>53e41083-6006-4ce1-9f8f-20bdc9e6ae74</testCaseGuid>
+</TestCaseEntity>

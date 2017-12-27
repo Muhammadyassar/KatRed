@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportEntity>
+   <description></description>
+   <name>20171222_160239</name>
+   <tag></tag>
+   <displayName>20171222_160239</displayName>
+   <reportTestCases>
+      <testCaseId>Test Cases/TestCases/SEP_FA_CustomerLogin</testCaseId>
+      <testCaseName>SEP_FA_CustomerLogin</testCaseName>
+      <videoLocation>videos/test_1.avi</videoLocation>
+   </reportTestCases>
+   <reportTestCases>
+      <testCaseId>Test Cases/TestCases/SEP_FA_CustomerRegistration</testCaseId>
+      <testCaseName>SEP_FA_CustomerRegistration</testCaseName>
+      <videoLocation>videos/test_2.avi</videoLocation>
+   </reportTestCases>
+</ReportEntity>

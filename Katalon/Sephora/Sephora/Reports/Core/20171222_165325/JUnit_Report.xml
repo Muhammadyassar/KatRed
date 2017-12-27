@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Core" time="49" tests="0" failures="0" errors="1">
+   <testsuite name="Core" tests="0" failures="0" errors="1" time="49" timestamp="2017-12-22 16:53:26" hostname="Yassar - Yassar-PC" id="Test Suites/Core">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon\\Sephora\\Sephora\\Reports\\Core\\20171222_165325"/>
+         <property name="logFiles" value="D:\\Katalon\\Sephora\\Sephora\\Reports\\Core\\20171222_165325\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Yassar - Yassar-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.84"/>
+         <property name="hostAddress" value="192.168.1.197"/>
+         <property name="sessionId" value="5b531d97f8fcbee0b628c92cf230a534"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/TestCases/SEP_FA_CustomerRegistration" classname="Test Cases/TestCases/SEP_FA_CustomerRegistration" status="ERROR">
+         <error type="ERROR" message="Test Cases/TestCases/SEP_FA_CustomerRegistration FAILED because (of) java.lang.IllegalArgumentException: Invalid column name '05' for test data 'D:\Katalon\Sephora\Sephora\Data Files\Customer.dat'. Possible values are '{firstname,lastname,email,password,day,month,year}'"/>
+         <system-out><![CDATA[2017-12-22 16:53:26 - [TEST_CASE][ERROR] - Test Cases/TestCases/SEP_FA_CustomerRegistration: Test Cases/TestCases/SEP_FA_CustomerRegistration FAILED because (of) java.lang.IllegalArgumentException: Invalid column name '05' for test data 'D:\Katalon\Sephora\Sephora\Data Files\Customer.dat'. Possible values are '{firstname,lastname,email,password,day,month,year}'
+
+2017-12-22 16:53:27 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/UnitCases/openSite' successfully
+
+2017-12-22 16:53:27 - [TEST_CASE][PASSED] - Test Cases/UnitCases/openSite: Test Cases/UnitCases/openSite
+
+2017-12-22 16:53:27 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-22 16:53:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-22 16:53:30 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-22 16:53:30 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-22 16:53:30 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.sephora.ae/en/' successfully
+
+2017-12-22 16:53:44 - [MESSAGE][PASSED] - Navigate to 'https://www.sephora.ae/en/' successfully
+
+2017-12-22 16:53:44 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/UnitCases/closeFancyPopUp' successfully
+
+2017-12-22 16:53:44 - [TEST_CASE][PASSED] - Test Cases/UnitCases/closeFancyPopUp: Test Cases/UnitCases/closeFancyPopUp
+
+2017-12-22 16:53:44 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/HomePage/Fancy Box Close Button' is present
+
+2017-12-22 16:53:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-22 16:53:58 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Fancy Box Close Button' is present
+
+2017-12-22 16:53:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/HomePage/Fancy Box Close Button' is clicked on
+
+2017-12-22 16:54:01 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Fancy Box Close Button' is clicked on
+
+2017-12-22 16:54:01 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/HomePage/My Account TopLink' is clickable
+
+2017-12-22 16:54:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-22 16:54:03 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/My Account TopLink' is clickable
+
+2017-12-22 16:54:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UnitCases/closeFancyPopUp' successfully
+
+2017-12-22 16:54:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UnitCases/openSite' successfully
+
+2017-12-22 16:54:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/HomePage/My Account TopLink' is clicked on
+
+2017-12-22 16:54:09 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/My Account TopLink' is clicked on
+
+2017-12-22 16:54:09 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-12-22 16:54:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-22 16:54:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-12-22 16:54:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginPage/Create Account Button' is clicked on
+
+2017-12-22 16:54:12 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/Create Account Button' is clicked on
+
+2017-12-22 16:54:12 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-12-22 16:54:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-22 16:54:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-12-22 16:54:12 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Forms/fillRegistrationForm' (Root cause: Call Test Case 'Test Cases/Forms/fillRegistrationForm' failed because of error(s))
+
+2017-12-22 16:54:13 - [TEST_CASE][ERROR] - Test Cases/Forms/fillRegistrationForm: Test Cases/Forms/fillRegistrationForm FAILED because (of) java.lang.IllegalArgumentException: Invalid column name '05' for test data 'D:\Katalon\Sephora\Sephora\Data Files\Customer.dat'. Possible values are '{firstname,lastname,email,password,day,month,year}'
+
+2017-12-22 16:54:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RegistrationPage/Prefix Radio Button' is clicked on
+
+2017-12-22 16:54:13 - [MESSAGE][PASSED] - Object: 'Object Repository/RegistrationPage/Prefix Radio Button' is clicked on
+
+2017-12-22 16:54:13 - [TEST_STEP][PASSED] - setText: Text 'Jack' is set on object 'Object Repository/RegistrationPage/Firstname Input Textfield'
+
+2017-12-22 16:54:13 - [MESSAGE][PASSED] - Text 'Jack' is set on object 'Object Repository/RegistrationPage/Firstname Input Textfield'
+
+2017-12-22 16:54:13 - [TEST_STEP][PASSED] - setText: Text 'Stone' is set on object 'Object Repository/RegistrationPage/Lastname Input Textfield'
+
+2017-12-22 16:54:14 - [MESSAGE][PASSED] - Text 'Stone' is set on object 'Object Repository/RegistrationPage/Lastname Input Textfield'
+
+2017-12-22 16:54:14 - [TEST_STEP][PASSED] - selectOptionByValue: Test data is internal data, reading internal data
+
+2017-12-22 16:54:14 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Forms/fillRegistrationForm' (Root cause: Call Test Case 'Test Cases/Forms/fillRegistrationForm' failed because of error(s))]]></system-out>
+         <system-err><![CDATA[2017-12-22 16:53:26 - [TEST_CASE][ERROR] - Test Cases/TestCases/SEP_FA_CustomerRegistration: Test Cases/TestCases/SEP_FA_CustomerRegistration FAILED because (of) java.lang.IllegalArgumentException: Invalid column name '05' for test data 'D:\Katalon\Sephora\Sephora\Data Files\Customer.dat'. Possible values are '{firstname,lastname,email,password,day,month,year}']]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-22 16:53:26 - [TEST_SUITE][ERROR] - Core: Test Cases/TestCases/SEP_FA_CustomerRegistration FAILED because (of) java.lang.IllegalArgumentException: Invalid column name '05' for test data 'D:\Katalon\Sephora\Sephora\Data Files\Customer.dat'. Possible values are '{firstname,lastname,email,password,day,month,year}']]></system-out>
+      <system-err><![CDATA[2017-12-22 16:53:26 - [TEST_SUITE][ERROR] - Core: Test Cases/TestCases/SEP_FA_CustomerRegistration FAILED because (of) java.lang.IllegalArgumentException: Invalid column name '05' for test data 'D:\Katalon\Sephora\Sephora\Data Files\Customer.dat'. Possible values are '{firstname,lastname,email,password,day,month,year}']]></system-err>
+   </testsuite>
+</testsuites>

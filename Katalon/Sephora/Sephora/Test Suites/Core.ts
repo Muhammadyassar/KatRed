@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Core</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2017-12-26T16:12:44</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>33b2606f-f09e-4cef-a5a7-96d704bddbd0</testSuiteGuid>
+   <testCaseLink>
+      <guid>4651b8ad-3777-4401-b0a6-459ef00e8c43</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AllCases/My Account/SEP_FA_CustomerLogin</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>601941a1-7c42-4ac6-8e9f-9b873ed1a29e</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/LoginData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>601941a1-7c42-4ac6-8e9f-9b873ed1a29e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>3f5310a8-9abd-40f7-af67-8719e110507a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>601941a1-7c42-4ac6-8e9f-9b873ed1a29e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>f822aaa4-6716-4ea3-8898-66f589295122</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>601941a1-7c42-4ac6-8e9f-9b873ed1a29e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectation</value>
+         <variableId>c9021c03-3239-4e34-b4f0-50c0121788f6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>601941a1-7c42-4ac6-8e9f-9b873ed1a29e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>scene</value>
+         <variableId>95b773c4-1df4-4029-9ced-375e6232d12b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>19a84a64-96cf-4c64-baaf-7713c4550059</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/AllCases/My Account/SEP_FA_CustomerRegistration</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>de1d9563-856a-45db-a55e-38eea55f84e6</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value>1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Customer</testDataId>
+      </testDataLink>
+   </testCaseLink>
+</TestSuiteEntity>

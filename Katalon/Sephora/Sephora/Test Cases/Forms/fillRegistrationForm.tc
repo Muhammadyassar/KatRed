@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Fill the registration Form for new customers</description>
+   <name>fillRegistrationForm</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>584ac41c-6d0e-42c1-9451-c7ef2e09b181</testCaseGuid>
+   <variable>
+      <defaultValue>'05'</defaultValue>
+      <description></description>
+      <id>86dffbbc-5e8a-4fbe-9682-e81e624f1302</id>
+      <masked>false</masked>
+      <name>day</name>
+   </variable>
+   <variable>
+      <defaultValue>'05'</defaultValue>
+      <description></description>
+      <id>7b920e59-e391-4484-8638-ca69dc439529</id>
+      <masked>false</masked>
+      <name>month</name>
+   </variable>
+   <variable>
+      <defaultValue>'1995'</defaultValue>
+      <description></description>
+      <id>b9176cec-c489-48ed-a781-2f901eee59dd</id>
+      <masked>false</masked>
+      <name>year</name>
+   </variable>
+   <variable>
+      <defaultValue>'Password123'</defaultValue>
+      <description></description>
+      <id>1efca610-1cd8-4496-b6d8-a5b890f7fd6b</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Jack'</defaultValue>
+      <description></description>
+      <id>699a38eb-cd49-4e9f-9153-48f79428a16c</id>
+      <masked>false</masked>
+      <name>firstname</name>
+   </variable>
+   <variable>
+      <defaultValue>'Stone'</defaultValue>
+      <description></description>
+      <id>803ba495-370f-4edc-9802-c48c2b32cfdd</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+</TestCaseEntity>

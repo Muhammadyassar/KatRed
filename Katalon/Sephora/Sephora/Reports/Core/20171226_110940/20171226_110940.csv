@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Core,Chrome 63.0.3239.108,,2017-12-26 11:09:42,2017-12-26 11:10:40,58.044s,PASSED
+,,,,,,
+Test Cases/AllCases/SEP_FA_CustomerLogin,Chrome 63.0.3239.108,Assert Successful Login,2017-12-26 11:09:42,2017-12-26 11:10:40,57.642s,PASSED
+callTestCase,Chrome 63.0.3239.108,,2017-12-26 11:09:43,2017-12-26 11:10:17,34.044s,PASSED
+callTestCase,Chrome 63.0.3239.108,,2017-12-26 11:10:17,2017-12-26 11:10:38,20.980s,PASSED
+verifyElementPresent,Chrome 63.0.3239.108,,2017-12-26 11:10:38,2017-12-26 11:10:39,1.363s,PASSED
+closeBrowser,Chrome 63.0.3239.108,,2017-12-26 11:10:39,2017-12-26 11:10:40,0.780s,PASSED

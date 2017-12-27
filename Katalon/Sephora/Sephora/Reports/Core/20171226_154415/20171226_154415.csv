@@ -1,0 +1,4 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Core,,,2017-12-26 15:44:16,2017-12-26 15:44:17,0.441s,INCOMPLETE
+,,,,,,
+Test Cases/AllCases/My Account/SEP_FA_CustomerLogin - Iteration 1,,Assert Successful Login,2017-12-26 15:44:17,2017-12-26 15:44:17,0.106s,PASSED

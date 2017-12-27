@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This will close the Fancy PopUp</description>
+   <name>closeFancyPopUp</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8741d95c-5606-476b-948b-cc7249e97611</testCaseGuid>
+</TestCaseEntity>

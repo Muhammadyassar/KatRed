@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Core" time="164" tests="2" failures="0" errors="0">
+   <testsuite name="Core" tests="2" failures="0" errors="0" time="164" timestamp="2017-12-22 15:15:56" hostname="Yassar - Yassar-PC" id="Test Suites/Core">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon\\Sephora\\Sephora\\Reports\\Core\\20171222_151554"/>
+         <property name="logFiles" value="D:\\Katalon\\Sephora\\Sephora\\Reports\\Core\\20171222_151554\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Yassar - Yassar-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.84"/>
+         <property name="hostAddress" value="192.168.1.197"/>
+         <property name="sessionId" value="d529c851ed2f2e60adb885bd1c4504755eacd098"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/TestCases/SEP_FA_CustomerLogin" classname="Test Cases/TestCases/SEP_FA_CustomerLogin" status="PASSED">
+         <system-out><![CDATA[2017-12-22 15:15:56 - [TEST_CASE][PASSED] - Test Cases/TestCases/SEP_FA_CustomerLogin: Test Cases/TestCases/SEP_FA_CustomerLogin
+
+2017-12-22 15:15:57 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/UnitCases/openSite' successfully
+
+2017-12-22 15:15:57 - [TEST_CASE][PASSED] - Test Cases/UnitCases/openSite: Test Cases/UnitCases/openSite
+
+2017-12-22 15:15:57 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-22 15:16:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-22 15:16:03 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-22 15:16:03 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-22 15:16:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.sephora.ae/en/' successfully
+
+2017-12-22 15:16:06 - [MESSAGE][PASSED] - Navigate to 'https://www.sephora.ae/en/' successfully
+
+2017-12-22 15:16:06 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/UnitCases/closeFancyPopUp' successfully
+
+2017-12-22 15:16:06 - [TEST_CASE][PASSED] - Test Cases/UnitCases/closeFancyPopUp: Test Cases/UnitCases/closeFancyPopUp
+
+2017-12-22 15:16:07 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/HomePage/Fancy Box Close Button' is present
+
+2017-12-22 15:16:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-22 15:16:20 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Fancy Box Close Button' is present
+
+2017-12-22 15:16:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/HomePage/Fancy Box Close Button' is clicked on
+
+2017-12-22 15:16:23 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Fancy Box Close Button' is clicked on
+
+2017-12-22 15:16:23 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/HomePage/My Account TopLink' is clickable
+
+2017-12-22 15:16:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-22 15:16:26 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/My Account TopLink' is clickable
+
+2017-12-22 15:16:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UnitCases/closeFancyPopUp' successfully
+
+2017-12-22 15:16:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UnitCases/openSite' successfully
+
+2017-12-22 15:16:26 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/UnitCases/login' successfully
+
+2017-12-22 15:16:26 - [TEST_CASE][PASSED] - Test Cases/UnitCases/login: Test Cases/UnitCases/login
+
+2017-12-22 15:16:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/HomePage/My Account TopLink' is clicked on
+
+2017-12-22 15:16:30 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/My Account TopLink' is clicked on
+
+2017-12-22 15:16:30 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-12-22 15:16:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-22 15:16:31 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-12-22 15:16:31 - [TEST_STEP][PASSED] - setText: Text 'rbdtest@mailinator.com' is set on object 'Object Repository/LoginPage/Login Input Field'
+
+2017-12-22 15:16:32 - [MESSAGE][PASSED] - Text 'rbdtest@mailinator.com' is set on object 'Object Repository/LoginPage/Login Input Field'
+
+2017-12-22 15:16:32 - [TEST_STEP][PASSED] - setText: Text 'Password123' is set on object 'Object Repository/LoginPage/Password Input Field'
+
+2017-12-22 15:16:33 - [MESSAGE][PASSED] - Text 'Password123' is set on object 'Object Repository/LoginPage/Password Input Field'
+
+2017-12-22 15:16:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginPage/Login Button' is clicked on
+
+2017-12-22 15:16:43 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/Login Button' is clicked on
+
+2017-12-22 15:16:43 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-12-22 15:16:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-22 15:16:43 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-12-22 15:16:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UnitCases/login' successfully
+
+2017-12-22 15:16:43 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/HomePage/Welcome Message' is present
+
+2017-12-22 15:16:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-22 15:16:45 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Welcome Message' is present
+
+2017-12-22 15:16:45 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-12-22 15:16:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCases/SEP_FA_CustomerRegistration" classname="Test Cases/TestCases/SEP_FA_CustomerRegistration" status="PASSED">
+         <system-out><![CDATA[2017-12-22 15:16:49 - [TEST_CASE][PASSED] - Test Cases/TestCases/SEP_FA_CustomerRegistration: Test Cases/TestCases/SEP_FA_CustomerRegistration
+
+2017-12-22 15:16:49 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/UnitCases/openSite' successfully
+
+2017-12-22 15:16:49 - [TEST_CASE][PASSED] - Test Cases/UnitCases/openSite: Test Cases/UnitCases/openSite
+
+2017-12-22 15:16:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-22 15:16:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-22 15:16:57 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-22 15:16:58 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-22 15:16:58 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.sephora.ae/en/' successfully
+
+2017-12-22 15:17:02 - [MESSAGE][PASSED] - Navigate to 'https://www.sephora.ae/en/' successfully
+
+2017-12-22 15:17:02 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/UnitCases/closeFancyPopUp' successfully
+
+2017-12-22 15:17:02 - [TEST_CASE][PASSED] - Test Cases/UnitCases/closeFancyPopUp: Test Cases/UnitCases/closeFancyPopUp
+
+2017-12-22 15:17:02 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/HomePage/Fancy Box Close Button' is present
+
+2017-12-22 15:17:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-22 15:17:15 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Fancy Box Close Button' is present
+
+2017-12-22 15:17:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/HomePage/Fancy Box Close Button' is clicked on
+
+2017-12-22 15:17:18 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Fancy Box Close Button' is clicked on
+
+2017-12-22 15:17:18 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/HomePage/My Account TopLink' is clickable
+
+2017-12-22 15:17:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-22 15:17:21 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/My Account TopLink' is clickable
+
+2017-12-22 15:17:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UnitCases/closeFancyPopUp' successfully
+
+2017-12-22 15:17:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UnitCases/openSite' successfully
+
+2017-12-22 15:17:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/HomePage/My Account TopLink' is clicked on
+
+2017-12-22 15:17:25 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/My Account TopLink' is clicked on
+
+2017-12-22 15:17:25 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-12-22 15:17:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-22 15:17:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-12-22 15:17:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginPage/Create Account Button' is clicked on
+
+2017-12-22 15:17:28 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/Create Account Button' is clicked on
+
+2017-12-22 15:17:28 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-12-22 15:17:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-22 15:17:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-12-22 15:17:28 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Forms/fillRegistrationForm' successfully
+
+2017-12-22 15:17:28 - [TEST_CASE][PASSED] - Test Cases/Forms/fillRegistrationForm: Test Cases/Forms/fillRegistrationForm
+
+2017-12-22 15:17:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RegistrationPage/Prefix Radio Button' is clicked on
+
+2017-12-22 15:17:29 - [MESSAGE][PASSED] - Object: 'Object Repository/RegistrationPage/Prefix Radio Button' is clicked on
+
+2017-12-22 15:17:29 - [TEST_STEP][PASSED] - setText: Text 'Jack' is set on object 'Object Repository/RegistrationPage/Firstname Input Textfield'
+
+2017-12-22 15:17:30 - [MESSAGE][PASSED] - Text 'Jack' is set on object 'Object Repository/RegistrationPage/Firstname Input Textfield'
+
+2017-12-22 15:17:30 - [TEST_STEP][PASSED] - setText: Text 'Stone' is set on object 'Object Repository/RegistrationPage/Lastname Input Textfield'
+
+2017-12-22 15:17:31 - [MESSAGE][PASSED] - Text 'Stone' is set on object 'Object Repository/RegistrationPage/Lastname Input Textfield'
+
+2017-12-22 15:17:31 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '10' are selected in object 'Object Repository/RegistrationPage/Day Dropdown'  using regular expression
+
+2017-12-22 15:17:43 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/RegistrationPage/Day Dropdown'  using regular expression
+
+2017-12-22 15:17:43 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '10' are selected in object 'Object Repository/RegistrationPage/Month Dropdown'  using regular expression
+
+2017-12-22 15:17:52 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/RegistrationPage/Month Dropdown'  using regular expression
+
+2017-12-22 15:17:52 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1990' are selected in object 'Object Repository/RegistrationPage/Year Dropdown'  using regular expression
+
+2017-12-22 15:18:26 - [MESSAGE][PASSED] - All options with value '1990' are selected in object 'Object Repository/RegistrationPage/Year Dropdown'  using regular expression
+
+2017-12-22 15:18:26 - [TEST_STEP][PASSED] - setText: Text 'autorbd20171222_151826@mailinator.com' is set on object 'Object Repository/RegistrationPage/Email Input Textfield'
+
+2017-12-22 15:18:26 - [TEST_CASE][PASSED] - Test Cases/Binaries/createEmailAddress: Test Cases/Binaries/createEmailAddress
+
+2017-12-22 15:18:26 - [TEST_STEP][PASSED] - Statement - now = new java.util.Date(): null
+
+2017-12-22 15:18:26 - [TEST_STEP][PASSED] - Statement - timestamp = now.toTimestamp().toString(): null
+
+2017-12-22 15:18:26 - [TEST_STEP][PASSED] - Statement - timestamp = timestamp.replace("-", ""): null
+
+2017-12-22 15:18:26 - [TEST_STEP][PASSED] - Statement - timestamp = timestamp.replace(":", ""): null
+
+2017-12-22 15:18:26 - [TEST_STEP][PASSED] - Statement - timestamp = timestamp.replace(" ", "_"): null
+
+2017-12-22 15:18:26 - [TEST_STEP][PASSED] - Statement - timestamp = timestamp.substring(0, timestamp.indexOf(".")): null
+
+2017-12-22 15:18:26 - [TEST_STEP][PASSED] - Statement - println(timestamp): null
+
+2017-12-22 15:18:26 - [TEST_STEP][PASSED] - Statement - return ((autorbd + timestamp) + @mailinator.com): null
+
+2017-12-22 15:18:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Binaries/createEmailAddress' successfully
+
+2017-12-22 15:18:28 - [MESSAGE][PASSED] - Text 'autorbd20171222_151826@mailinator.com' is set on object 'Object Repository/RegistrationPage/Email Input Textfield'
+
+2017-12-22 15:18:28 - [TEST_STEP][PASSED] - setText: Text 'Password123' is set on object 'Object Repository/RegistrationPage/Password  Input Textfield'
+
+2017-12-22 15:18:29 - [MESSAGE][PASSED] - Text 'Password123' is set on object 'Object Repository/RegistrationPage/Password  Input Textfield'
+
+2017-12-22 15:18:29 - [TEST_STEP][PASSED] - setText: Text 'Password123' is set on object 'Object Repository/RegistrationPage/Password Confirmation Input Textfield'
+
+2017-12-22 15:18:30 - [MESSAGE][PASSED] - Text 'Password123' is set on object 'Object Repository/RegistrationPage/Password Confirmation Input Textfield'
+
+2017-12-22 15:18:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RegistrationPage/Input Agreement Checkbox' is clicked on
+
+2017-12-22 15:18:31 - [MESSAGE][PASSED] - Object: 'Object Repository/RegistrationPage/Input Agreement Checkbox' is clicked on
+
+2017-12-22 15:18:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Forms/fillRegistrationForm' successfully
+
+2017-12-22 15:18:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RegistrationPage/Create Account Button' is clicked on
+
+2017-12-22 15:18:35 - [MESSAGE][PASSED] - Object: 'Object Repository/RegistrationPage/Create Account Button' is clicked on
+
+2017-12-22 15:18:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/MyAccountPage/Successful Registration Message' is present
+
+2017-12-22 15:18:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-22 15:18:36 - [MESSAGE][PASSED] - Object 'Object Repository/MyAccountPage/Successful Registration Message' is present
+
+2017-12-22 15:18:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/MyAccountPage/My Account Header' is present
+
+2017-12-22 15:18:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-22 15:18:36 - [MESSAGE][PASSED] - Object 'Object Repository/MyAccountPage/My Account Header' is present
+
+2017-12-22 15:18:36 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-12-22 15:18:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-22 15:15:56 - [TEST_SUITE][PASSED] - Core: Test Cases/TestCases/SEP_FA_CustomerRegistration]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
